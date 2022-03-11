@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "truffle": "^5.4.23",
+    "web3": "^1.7.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MiracleCorunus/ETHPool_Test.git"
@@ -15,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/MiracleCorunus/ETHPool_Test/issues"
   },
-  "homepage": "https://github.com/MiracleCorunus/ETHPool_Test#readme"
+  "homepage": "https://github.com/MiracleCorunus/ETHPool_Test#readme",
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.21"
+  }
 }
